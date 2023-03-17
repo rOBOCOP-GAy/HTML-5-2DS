@@ -1,0 +1,43 @@
+#topo{
+ 
+    background: blue;
+    background: linear-gradient(to right, blue, rgb(201, 204, 14) );
+
+}
+
+#conteudo {
+    color: red;   
+    background: red ;
+    background: linear-gradient(to right, yellow, rgb(11, 23, 185) );
+    
+}
+
+
+#rodape {
+background: yellow;
+background: linear-gradient(to right, yellow, orange );
+
+}
+
+.produto{
+
+    background: gray;
+    margin: 10px;
+    background: linear-gradient(to right, yellow, orange );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+.azul{
+    color: blue;
+}
+
+ul {
+    background: yellow;
+    background: linear-gradient(to right, yellow, orange );
+}
+ul li { 
+
+
+    color: red;
+}
