@@ -1,1 +1,1 @@
-"." para classe (vários componentes html) "!" para id (utilizado para estilizar apenas um elemento html)
+"." para classe (vários componentes html) "#" para id (utilizado para estilizar apenas um elemento html)
