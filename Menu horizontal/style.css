@@ -1,0 +1,23 @@
+#navegacao #home .home a, 
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a
+{
+
+background-position: right bottom;
+background-color: #f99200;
+color: white;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px ;
+    background: #159cb1 url() repeat-x;
+    float: left;
+}
+#home {
+
+}
+
