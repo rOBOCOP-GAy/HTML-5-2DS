@@ -1,28 +1,25 @@
 /* Estrutura do site*/
 
-
-
-
 body{ 
     background: #f4f2ec url(../img/fundo.png);
     font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; 
 
 }
+
 #container {
     width: 1080px;
     margin: 0 auto;
 
 }
 
-
 a:link, a:active, a:visited { 
     color: #af670a;
     text-decoration: none;
 }
+
 a:hover {
     color: #227115;
 }
-
 
 /* Logo */
 
@@ -37,7 +34,9 @@ a:hover {
     display: block;
     background: url(../img/logo.png);
 }
+
 /* Barra de navegação */ 
+
 header {
     padding: 15px 0;
     height: 55px;
@@ -51,6 +50,7 @@ nav ul {
 
     
 }
+
  nav ul li {
     float: left;
  }
@@ -58,6 +58,7 @@ nav ul {
  nav ul li a:link {
     display: block;
  }
+ 
  nav ul li a:link {
     display: block;
     margin-right: 25px;
@@ -72,4 +73,38 @@ nav ul {
 
  }
 
- /*  */
+ /* Principal  */
+
+ #conteudo {
+    width: 710px;
+    float: left;
+    margin-bottom: 20px;
+
+ }
+
+aside  {
+    width: 349px;
+    float: right;
+    background: #ebe7eb;
+    padding-bottom: 30px;
+}
+
+section#visita {
+    background:  #cdc8b1;
+    padding: 10px 27px 27px;
+    margin-top: 10px;
+
+}
+
+section#galeria{
+    padding: 0 27px 0 27px;
+  
+
+}
+
+section#galeria a{
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px ;
+}
